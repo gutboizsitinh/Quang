@@ -43,7 +43,7 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
 <body>
     
     
-    <audio src="remix1.mp3" autoplay loop></audio>
+    
     <div class="wrap">
         <div class="profile">
             <div class="profile-above">
@@ -98,5 +98,10 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
             </div>
         </div>
     </div>
+           <audio controls autoplay id="playAudio" style="display: none;">
+            <source src="remix.mp3" type="audio/mpeg">
+        </audio>
+        <iframe src="audio/remix.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+        </iframe>                                                                                                                               
 </body>
 </html>
